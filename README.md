@@ -1,6 +1,6 @@
 **Read this in other languages: [English](README.md), [中文](README_zh.md).**
 # Alpamayo-1-Local
-VLA model, a local, offline‑running adaptation of NVIDIA’s Alpamayo 1. Run models, process data and visualize results entirely on your own machine.
+VLA model, a local, offline‑running adaptation of NVIDIA’s Alpamayo. Add dataset process, visualization, fine-tuning, RL fine-tuning, consistency training.
 
 ## Visualization 
 
@@ -17,7 +17,7 @@ VLA model, a local, offline‑running adaptation of NVIDIA’s Alpamayo 1. Run m
 <img src="images/result_alpamayo.webp" width="70%" alt="alpamayo result">
 
 ## Usage
-### env
+### ENV
 ```bash
 python==3.12
 cuda==12.1
