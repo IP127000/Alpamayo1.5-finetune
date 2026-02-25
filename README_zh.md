@@ -1,7 +1,7 @@
 **Read this in other languages: [English](README.md), [中文](README_zh.md).**
-
+## 欢迎star！更多功能等待释放
 # Alpamayo-1-Local
-VLA模型，英伟达Alpamayo 1的本地、离线运行版本。可在自己的机器上完全运行模型、处理数据并可视化结果。
+VLA模型，英伟达Alpamayo 1的本地、离线运行版本。添加可视化，微调，强化微调，一致性训练。
 
 ## 可视化
 
