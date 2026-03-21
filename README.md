@@ -37,8 +37,6 @@ Offline adaptation of NVIDIA’s Alpamayo with dataset processing, visualization
   <img src="images/result_alpamayo.webp" width="70%" alt="Alpamayo result">
 </p>
 
----
-
 **⚙️ Usage**
 
 1️⃣ Environment
@@ -66,8 +64,6 @@ pip install -r requirements.txt
 python inference.py
 ```
 
----
-
 **🗂 About dataset**
 
 You don't need the full [dataset](https://huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles);
@@ -79,7 +75,7 @@ Stay tuned for updates!
 
 ---
 
-## 🛠 2 For SFT (Supervised Fine-Tuning)
+## 🛠For SFT (Supervised Fine-Tuning)
 
 1. Split Alpamayo into two parts: **Qwen-3_VL** + **diffusion module**.
    Add trajectory & action tokens to Qwen-3_VL tokenizer.
@@ -90,7 +86,7 @@ Stay tuned for updates!
 
 ---
 
-## 🎯 3 For RL (Reinforcement Learning)
+## 🎯For RL (Reinforcement Learning)
 
 RL fine-tuning of Alpamayo focuses on **Qwen-3_VL**:
 
