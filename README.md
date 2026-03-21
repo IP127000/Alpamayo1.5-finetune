@@ -40,3 +40,16 @@ python inference.py
 You  needn't to download the full [dataset](https://huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles); you only need to download one or a few clips.
 ### For images inference 
 Stay tuned!
+
+# For SFT
+Step 1: Split Alpamayo into two parts, Qwen-3_VL and the diffusion module, and add traj and action tokens to the Qwen-3_VL tokenizer.
+Step 2: Fine-tune Qwen-3_VL.
+Step 3: Fine-tune the diffusion module.
+
+**The code is currently being released.**
+
+# For RL
+From a technical perspective, Alpamayo’s reinforcement fine-tuning is quite straightforward. Essentially, it is just the RL of Qwen-3_VL, where the VLM outputs CoT and action tokens through rollouts. This process is unrelated to the diffusion component, as described in the paper.
+Stay tuned!
+
+
