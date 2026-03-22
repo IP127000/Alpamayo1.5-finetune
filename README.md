@@ -48,8 +48,8 @@ cuda==12.1
 2️⃣ Clone repository
 
 ```bash
-git clone https://github.com/IP127000/Alpamayo-VLA-Local.git
-cd Alpamayo_finetune
+git clone https://github.com/IP127000/Alpamayo1.5-finetune.git
+cd Alpamayo1.5-finetune
 ```
 
 3️⃣ Install dependencies
