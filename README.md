@@ -1,5 +1,6 @@
 
-# 🌟 Alpamayo-1&1.5
+# 🌟 Alpamayo-1&1.5  
+
 Feel free to **star⭐**  
 [![GitHub stars](https://img.shields.io/github/stars/IP127000/Alpamayo-VLA-Local?style=social)](https://github.com/IP127000/Alpamayo-VLA-Local/stargazers)
 
@@ -72,7 +73,7 @@ only download one or a few clips for testing.
 
 **📸 Image inference**
 
-Stay tuned for updates!
+> **Note:**Stay tuned for updates!
 
 ---
 
@@ -96,7 +97,7 @@ RL fine-tuning of Alpamayo focuses on **Qwen-3_VL**:
 
 From a technical perspective, Alpamayo’s reinforcement fine-tuning is quite straightforward. Essentially, it is just the RL of Qwen-3_VL, where the VLM outputs CoT and action tokens through rollouts. This process is unrelated to the diffusion component, as described in the paper.
 
-> **Note:** Stay tuned!
+> **Note:** Stay tuned for updates!
 
 ---
 
